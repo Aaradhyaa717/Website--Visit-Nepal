@@ -1,0 +1,126 @@
+body,html{
+    height:100%;
+}
+
+.header{
+    background-color: #E4E4EC;
+    width: auto;
+    height: 70px;
+
+}
+
+.nav-item{
+    padding: 25px;
+    color:#FFFFFF;
+    font-family:"Helvetica";
+}
+
+
+.welcome{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-family:"Helvetica";
+    color:#FFFFFF;
+}
+
+.home-bg{
+    width:100%;
+    height:1000px;
+    object-fit:cover;
+}
+
+.one{
+    height: 300px;
+    object-fit: scale-down;
+    margin:25px;
+   margin-right:200px;
+
+}
+
+#to-float{
+    float:left;
+
+}
+
+.name{
+    font-family:"Helvetica";
+    margin:25px;
+}
+
+
+.map-img{
+    width:100%;
+    height:1000px;
+    object-fit:cover;
+    margin-top:10px;
+}
+
+.question{
+    margin-left:10%;
+    font-family:"Helvetica";
+}
+
+.query-form{
+    margin-left:10%;
+    position:relative;
+}
+
+.field{
+    width: 75%;
+    height:100px;
+    top:50%;
+}
+
+
+
+input[type=submit]{
+    background-color:#E4E4EC;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration:none;
+    margin: 10px 5px;
+    cursor: pointer;
+    display:block;
+    font-family:"Helvetica"
+  }
+
+
+.avatar{
+    float:left;
+    object-fit:contain;
+    height:200px;
+    margin:20px;
+    left:10%!important
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+
+.image {
+    flex-basis: 40%
+  }
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+.exp-form{
+    margin-left:20%;
+    width:80%;
+
+}
+
+
+.exp-header{
+    font-family:"Helvetica";
+    font-size: 2.5em;
+    margin:20px;
+}
